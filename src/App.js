@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
+let name = 'Adarsh';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React with Adarsh
-        </a>
-      </header>
+    <>
+    <nav>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </nav>
+    <div className="container">
+      <h1>Hello {name}</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Nemo commodi corporis perspiciatis suscipit 
+        inventore nobis architecto dolorum deserunt, cum 
+        quae neque quis hic natus rem alias quos minima 
+        repellat magnam corrupti molestias ducimus modi!
+      </p>
     </div>
+    </>
+    
   );
 }
 
